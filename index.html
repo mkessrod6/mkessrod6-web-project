@@ -5,130 +5,142 @@
   </head>
   <body bgcolor="#1a1a2e">
 
-    <!-- Navigation Bar -->
-    <table width="100%" bgcolor="#16213e" cellpadding="10">
-      <tr>
-        <td><font color="#e94560" size="4"><b>ICT280 Website</b></font></td>
-        <td align="right">
-          <a href="index.html"><font color="#ffffff">Home</font></a>
-          &nbsp;&nbsp;&nbsp;
-          <a href="html/html/project2.html"><font color="#ffffff">Project Hail Mary</font></a>
-          &nbsp;&nbsp;&nbsp;
-          <a href="html/html/project3.html"><font color="#ffffff">Steel Ball Run</font></a>
-        </td>
-      </tr>
-    </table>
+    <!-- Navigation Bar — wrapped in nav landmark -->
+    <nav role="navigation">
+      <table width="100%" bgcolor="#16213e" cellpadding="10">
+        <tr>
+          <!-- Color changed from #e94560 to #ff8fa3 for sufficient contrast on #16213e -->
+          <td><font color="#ff8fa3" size="4"><b>ICT280 Website</b></font></td>
+          <td align="right">
+            <a href="index.html"><font color="#ffffff">Home</font></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="html/html/project2.html"><font color="#ffffff">Project Hail Mary</font></a>
+            &nbsp;&nbsp;&nbsp;
+            <a href="html/html/project3.html"><font color="#ffffff">Steel Ball Run</font></a>
+          </td>
+        </tr>
+      </table>
+    </nav>
 
-    <!-- Hero Section -->
-    <div align="center">
-      <br>
-      <font color="#e94560" size="7"><b>ICT280 Website</b></font>
-      <br>
-      <font color="#aaaaaa" size="4"><i>A course website featuring pages on Project Hail Mary and JoJo's Bizarre Adventure Part 7</i></font>
+    <!-- Hero Section — wrapped in header landmark, h1 added -->
+    <header role="banner">
+      <div align="center">
+        <br>
+        <!-- h1 added to satisfy level-one heading requirement -->
+        <h1><font color="#ff8fa3">ICT280 Website</font></h1>
+        <font color="#aaaaaa" size="4"><i>A course website featuring pages on Project Hail Mary and JoJo's Bizarre Adventure Part 7</i></font>
+        <br><br>
+      </div>
+    </header>
+
+    <!-- Main content wrapped in main landmark -->
+    <main role="main">
+
+      <table width="90%" align="center" bgcolor="#16213e" cellpadding="20">
+        <tr>
+          <td>
+            <font color="#ff8fa3" size="5"><b>Welcome</b></font>
+            <br><br>
+            <font color="#ffffff" size="3">
+              <p>
+                Welcome to my ICT280 course website. This site currently features two themed pages:
+                one dedicated to <i>Project Hail Mary</i>, a science fiction novel by Andy Weir,
+                and one dedicated to <i>Steel Ball Run</i>, the seventh part of Hirohiko Araki's
+                manga series <i>JoJo's Bizarre Adventure</i>.
+              </p>
+              <p>
+                Use the navigation bar above to explore the site. Each page covers its respective
+                topic in depth, including characters, story details, and more.
+              </p>
+            </font>
+
+            <br>
+            <font color="#ff8fa3" size="5"><b>What You'll Find Here</b></font>
+            <br><br>
+            <font color="#ffffff" size="3">
+              <ul>
+                <li>A summary and overview of Project Hail Mary</li>
+                <li>Background on author Andy Weir</li>
+                <li>Awards and recognition Project Hail Mary has received</li>
+                <li>Details on the film adaptation starring Ryan Gosling</li>
+                <li>An overview of Steel Ball Run and its story</li>
+                <li>Character breakdowns for Johnny Joestar, Gyro Zeppeli, and Funny Valentine</li>
+                <li>A guide to the race stages and key Stands from Part 7</li>
+              </ul>
+            </font>
+
+            <br>
+            <font color="#ff8fa3" size="5"><b>Quick Facts</b></font>
+            <br><br>
+            <font color="#ffffff" size="3">
+              <ol>
+                <li>Project Hail Mary was published in May 2021</li>
+                <li>It won the Hugo Award for Best Novel in 2022</li>
+                <li>It is Andy Weir's third novel</li>
+                <li>A film adaptation starring Ryan Gosling is now out in theaters and streaming</li>
+                <li>Steel Ball Run is Part 7 of JoJo's Bizarre Adventure, serialized from 2004 to 2011</li>
+                <li>It is set during an alternate-history 1890s cross-continental horse race across America</li>
+                <li>Steel Ball Run is widely considered the best arc in the JoJo series by fans</li>
+              </ol>
+            </font>
+
+          </td>
+        </tr>
+      </table>
+
       <br><br>
-    </div>
 
-    <!-- Welcome Section -->
-    <table width="90%" align="center" bgcolor="#16213e" cellpadding="20">
-      <tr>
-        <td>
-          <font color="#e94560" size="5"><b>Welcome</b></font>
-          <br><br>
-          <font color="#ffffff" size="3">
-            <p>
-              Welcome to my ICT280 course website. This site currently features two themed pages:
-              one dedicated to <i>Project Hail Mary</i>, a science fiction novel by Andy Weir,
-              and one dedicated to <i>Steel Ball Run</i>, the seventh part of Hirohiko Araki's
-              manga series <i>JoJo's Bizarre Adventure</i>.
-            </p>
-            <p>
-              Use the navigation bar above to explore the site. Each page covers its respective
-              topic in depth, including characters, story details, and more.
-            </p>
-          </font>
+      <!-- Site Navigation Table -->
+      <table width="90%" align="center" bgcolor="#16213e" border="1" bordercolor="#ff8fa3" cellpadding="12">
+        <tr>
+          <td colspan="2" align="center">
+            <font color="#ff8fa3" size="5"><b>Site Pages</b></font>
+          </td>
+        </tr>
+        <tr bgcolor="#0f3460">
+          <!-- Color changed from #e94560 to #ff8fa3 for sufficient contrast on #0f3460 -->
+          <td><font color="#ff8fa3"><b>Page</b></font></td>
+          <td><font color="#ff8fa3"><b>Description</b></font></td>
+        </tr>
+        <tr>
+          <td><a href="index.html"><font color="#ffffff">Home</font></a></td>
+          <td><font color="#aaaaaa">You are here — site overview and introduction</font></td>
+        </tr>
+        <tr bgcolor="#0f3460">
+          <td><a href="html/html/project2.html"><font color="#ffffff">Project Hail Mary</font></a></td>
+          <td><font color="#aaaaaa">Full details on Project Hail Mary, Andy Weir, awards, and sources</font></td>
+        </tr>
+        <tr>
+          <td><a href="html/html/project3.html"><font color="#ffffff">Steel Ball Run</font></a></td>
+          <td><font color="#aaaaaa">Overview of JoJo's Bizarre Adventure Part 7 — characters, race stages, and Stands</font></td>
+        </tr>
+      </table>
 
-          <br>
-          <font color="#e94560" size="5"><b>What You'll Find Here</b></font>
-          <br><br>
-          <font color="#ffffff" size="3">
-            <ul>
-              <li>A summary and overview of Project Hail Mary</li>
-              <li>Background on author Andy Weir</li>
-              <li>Awards and recognition Project Hail Mary has received</li>
-              <li>Details on the upcoming film adaptation starring Ryan Gosling</li>
-              <li>An overview of Steel Ball Run and its story</li>
-              <li>Character breakdowns for Johnny Joestar, Gyro Zeppeli, and Funny Valentine</li>
-              <li>A guide to the race stages and key Stands from Part 7</li>
-            </ul>
-          </font>
+      <br><br>
 
-          <br>
-          <font color="#e94560" size="5"><b>Quick Facts</b></font>
-          <br><br>
-          <font color="#ffffff" size="3">
-            <ol>
-              <li>Project Hail Mary was published in May 2021</li>
-              <li>It won the Hugo Award for Best Novel in 2022</li>
-              <li>It is Andy Weir's third novel</li>
-              <li>A film adaptation starring Ryan Gosling is now out in theaters and streaming</li>
-              <li>Steel Ball Run is Part 7 of JoJo's Bizarre Adventure, serialized from 2004 to 2011</li>
-              <li>It is set during an alternate-history 1890s cross-continental horse race across America</li>
-              <li>Steel Ball Run is widely considered the best arc in the JoJo series by fans</li>
-            </ol>
-          </font>
+      <!-- CTA Links -->
+      <div align="center">
+        <a href="html/html/project2.html">
+          <font color="#ff8fa3" size="5"><b>Explore Project Hail Mary &rarr;</b></font>
+        </a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="html/html/project3.html">
+          <font color="#ff8fa3" size="5"><b>Explore Steel Ball Run &rarr;</b></font>
+        </a>
+      </div>
 
-        </td>
-      </tr>
-    </table>
+      <br><br>
 
-    <br><br>
+    </main>
 
-    <!-- Site Navigation Table -->
-    <table width="90%" align="center" bgcolor="#16213e" border="1" bordercolor="#e94560" cellpadding="12">
-      <tr>
-        <td colspan="2" align="center">
-          <font color="#e94560" size="5"><b>Site Pages</b></font>
-        </td>
-      </tr>
-      <tr bgcolor="#0f3460">
-        <td><font color="#e94560"><b>Page</b></font></td>
-        <td><font color="#e94560"><b>Description</b></font></td>
-      </tr>
-      <tr>
-        <td><a href="index.html"><font color="#ffffff">Home</font></a></td>
-        <td><font color="#aaaaaa">You are here — site overview and introduction</font></td>
-      </tr>
-      <tr bgcolor="#0f3460">
-        <td><a href="html/html/project2.html"><font color="#ffffff">Project Hail Mary</font></a></td>
-        <td><font color="#aaaaaa">Full details on Project Hail Mary, Andy Weir, awards, and sources</font></td>
-      </tr>
-      <tr>
-        <td><a href="html/html/project3.html"><font color="#ffffff">Steel Ball Run</font></a></td>
-        <td><font color="#aaaaaa">Overview of JoJo's Bizarre Adventure Part 7 — characters, race stages, and Stands</font></td>
-      </tr>
-    </table>
-
-    <br><br>
-
-    <!-- CTA Links -->
-    <div align="center">
-      <a href="html/html/project2.html">
-        <font color="#e94560" size="5"><b>Explore Project Hail Mary &rarr;</b></font>
-      </a>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      <a href="html/html/project3.html">
-        <font color="#e94560" size="5"><b>Explore Steel Ball Run &rarr;</b></font>
-      </a>
-    </div>
-
-    <br><br>
-
-    <!-- Footer -->
-    <div align="center">
-      <font color="#555555" size="2">ICT280 Web Development &mdash; Project Hail Mary &amp; Steel Ball Run Fan Site</font>
-    </div>
-
-    <br>
+    <!-- Footer wrapped in footer landmark -->
+    <footer role="contentinfo">
+      <div align="center">
+        <!-- Color changed from #555555 to #aaaaaa for sufficient contrast on #1a1a2e -->
+        <font color="#aaaaaa" size="2">ICT280 Web Development &mdash; Project Hail Mary &amp; Steel Ball Run Fan Site</font>
+      </div>
+      <br>
+    </footer>
 
   </body>
 </html>
